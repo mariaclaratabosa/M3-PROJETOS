@@ -8,7 +8,12 @@ Os números são referentes aos números de cada atividade.<br />
 O `M` significa `Módulo` ou seja, `M3` significa `Módulo 3`.
 <hr />
 
-## S1-14 - "[PROPS: CARD DE PESSOAS]"
+## S1-14 - "PROPS: CARD DE PESSOAS"
 Nesse projeto, eu desenvolvi uma lista de cards de pessoas, utilizando os conceitos de props em React<br />
 <br />
 `React` `props` `modules` `+`
+
+## S1-14 - "PRATICANDO CHILDREN"
+Nesse projeto, eu desenvolvi uma lista de cards, utilizando os conceitos de props e children em React<br />
+<br />
+`React` `props` `children` `modules` `+`

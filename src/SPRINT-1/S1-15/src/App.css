@@ -1,0 +1,30 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body{
+  background-color: #1f1f2e;
+}
+
+div {
+  display: flex;
+  gap: 2rem;
+}
+
+ul{
+  list-style: none;
+}
+
+li{
+  background-color: #6600ff;
+  color: #f0e6ff;
+  width: 12.5rem;
+  height: 6.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
