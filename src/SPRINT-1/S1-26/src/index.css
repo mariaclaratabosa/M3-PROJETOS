@@ -1,0 +1,33 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+}
+
+div{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+button{
+  width: 8rem;
+  height: 3rem;
+  background-color: #6600ff;
+  color: #f0e6ff;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 2px;
+}
+
+button:hover{
+  background-color: #f0e6ff;
+  color: #6600ff;
+  border-color: #6600ff;
+}
+
+

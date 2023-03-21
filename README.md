@@ -24,6 +24,11 @@ Nesse projeto, eu desenvolvi uma renderização de uma lista de frutas em React,
 `React` `props` `filter` `map` `reduce` `+`
 
 ## S1-25 - "[FORMULÁRIO DE CADASTRO]()"
-Nesse projeto, eu desenvolvi um formulário em Reactde cadastro de usuário, contendo nome, e-mail e senha, e um botão de envio. Possui também uma verificação caso os campos estejam vazios, retornar um alerta
+Nesse projeto, eu desenvolvi um formulário em React de cadastro de usuário, contendo nome, e-mail e senha, e um botão de envio. Possui também uma verificação caso os campos estejam vazios, retornar um alerta
 <br />
 `React` `form` `event` `onChange` `onSubmit` `+`
+
+## S1-26 - "[MANIPULANDO EVENTOS - NÚMEROS ALEATÓRIOS]()"
+Nesse projeto, eu utilizei o useState do React para instaciar um valor aleatório de 1 a 100, e um botão para criar um novo número, que cada vez que é clicado, retorna outro número aleatório e renderiza na tela
+<br />
+`React` `form` `event` `onClick` `Math.floor` `Math.random` `+`
