@@ -13,7 +13,7 @@ Nesse projeto, eu desenvolvi uma lista de cards de pessoas, utilizando os concei
 <br />
 `React` `props` `modules` `+`
 
-## S1-14 - "[PRATICANDO CHILDREN]"
+## S1-14 - "[PRATICANDO CHILDREN](https://praticando-children-react.vercel.app/)"
 Nesse projeto, eu desenvolvi uma lista de cards, utilizando os conceitos de props e children em React<br />
 <br />
 `React` `props` `children` `modules` `+`
