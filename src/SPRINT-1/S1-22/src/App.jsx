@@ -48,7 +48,7 @@ function App() {
       <ul>
         {cart.map(item => <ItemCard key={item.name} item={item} />)}
       </ul>
-      <span>Total: {total}</span>
+      <span>Total: R$ {total}</span>
       <div>
         <h2>Frutas:</h2>
         <ul>
