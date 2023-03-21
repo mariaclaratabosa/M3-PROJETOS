@@ -38,7 +38,12 @@ Nesse projeto, eu utilizei o useState do React para instanciar a condiconal do u
 <br />
 `React` `event` `onClick` `useState` `props` `ternary operator``+`
 
-## S1-30 - "[RENDERIZAÇÃO CONDICIONAL + FORM - ACESSO UTILIZANDO USERNAME]()"
+## S1-31 - "[RENDERIZAÇÃO CONDICIONAL + FORM - ACESSO UTILIZANDO USERNAME]()"
 Nesse projeto, eu utilizei o useState do React para instanciar a condiconal do usuário estar logado ou não, a função de login,depois de preencher o input e clicar no botão, atualiza o state para true, e muda a mensagem que aparece na tela, a função de logout atualiza para false, e muda a mensagem que aparece na tela
 <br />
 `React` `event` `onClick` `useState` `props` `ternary operator``+`
+
+## S1-33 - "[CALLBACKS + SPREAD - TO-DO LIST]()"
+Nesse projeto, eu desenvolvi uma lista de afazeres através do uso de callbacks e spread operator no React, onde, através de um form, é possível adicionar novas tarefas, que são renderizadas na lista, e ao clicar no botão de "Concluir", a tarefa é removida da lista.
+<br />
+`React` `event` `onClick` `useState` `props` `+`
