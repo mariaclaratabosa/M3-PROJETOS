@@ -9,11 +9,16 @@ O `M` significa `Módulo` ou seja, `M3` significa `Módulo 3`.
 <hr />
 
 ## S1-14 - "[PROPS: CARD DE PESSOAS](https://props-cards-de-pessoas.vercel.app/)"
-Nesse projeto, eu desenvolvi uma lista de cards de pessoas, utilizando os conceitos de props em React<br />
+Nesse projeto, eu desenvolvi uma lista de cards de pessoas, utilizando os conceitos de props em React
 <br />
 `React` `props` `modules` `+`
 
 ## S1-14 - "[PRATICANDO CHILDREN](https://praticando-children-react.vercel.app/)"
-Nesse projeto, eu desenvolvi uma lista de cards, utilizando os conceitos de props e children em React<br />
+Nesse projeto, eu desenvolvi uma lista de cards, utilizando os conceitos de props e children em React
 <br />
 `React` `props` `children` `modules` `+`
+
+## S1-22 - "[LISTA DE FRUTAS]()"
+Nesse projeto, eu desenvolvi uma renderização de uma lista de frutas em React, utilizando o método map, bem como a soma dos valores da lista, utilizando o método reduce, e a filtragem de itens por categoria através do método filter, e foi adicionado um botão de adicionar novos itens à lista
+<br />
+`React` `props` `filter` `map` `reduce` `+`
