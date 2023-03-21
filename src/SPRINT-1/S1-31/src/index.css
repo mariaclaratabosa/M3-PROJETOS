@@ -1,0 +1,46 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  background-color: #00cc99;
+  color: #ff0066;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+input{
+  width: 20rem;
+  height: 2rem;
+  padding-left: 1rem;
+  border: transparent;
+  border-radius: 2px;
+  outline: none;
+}
+
+button{
+  height: 2rem;
+  width: 21rem;
+  border: 2px solid #ff0066;
+  background-color: transparent;
+  color: #ff0066;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover{
+  background-color: #ff0066;
+  color: #00cc99;
+}
