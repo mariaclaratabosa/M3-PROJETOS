@@ -23,7 +23,7 @@ Nesse projeto, eu desenvolvi uma renderização de uma lista de frutas em React,
 <br />
 `React` `props` `filter` `map` `reduce` `+`
 
-## S1-22 - "[FORMULÁRIO DE CADASTRO]()"
+## S1-25 - "[FORMULÁRIO DE CADASTRO]()"
 Nesse projeto, eu desenvolvi um formulário em Reactde cadastro de usuário, contendo nome, e-mail e senha, e um botão de envio. Possui também uma verificação caso os campos estejam vazios, retornar um alerta
 <br />
 `React` `form` `event` `onChange` `onSubmit` `+`
