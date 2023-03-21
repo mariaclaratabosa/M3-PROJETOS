@@ -32,3 +32,8 @@ Nesse projeto, eu desenvolvi um formulário em React de cadastro de usuário, co
 Nesse projeto, eu utilizei o useState do React para instaciar um valor aleatório de 1 a 100, e um botão para criar um novo número, que cada vez que é clicado, retorna outro número aleatório e renderiza na tela
 <br />
 `React` `form` `event` `onClick` `Math.floor` `Math.random` `+`
+
+## S1-30 - "[RENDERIZAÇÃO CONDICIONAL - ACESSO DE USUÁRIO]()"
+Nesse projeto, eu utilizei o useState do React para instanciar a condiconal do usuário estar logado ou não, a função de login, ao clicar no botão, atualiza o state para true, e muda a mensagem que aparece na tela, a função de logout atualiza para false, e muda a mensagem que aparece na tela
+<br />
+`React` `event` `onClick` `useState` `props` `ternary operator``+`
