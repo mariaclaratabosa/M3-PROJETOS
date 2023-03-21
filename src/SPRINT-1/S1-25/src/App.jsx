@@ -18,7 +18,7 @@ function AddForm() {
 
     console.log(formData)
     console.log("Usuário cadastrado com sucesso")
-    
+
     setFormData({
       name: "",
       email: "",
@@ -28,7 +28,7 @@ function AddForm() {
 
   return (
     <form onSubmit={submitForm}>
-      <h2>Formulário de Usuário</h2>
+      <h2>Formulário de Cadastro</h2>
       <input type="text" value={formData.name} onChange={(e) => setFormData({ ...formData, name: e.target.value })} placeholder="Seu nome" />
       <input type="email" value={formData.email} onChange={(e) => setFormData({ ...formData, email: e.target.value })} placeholder="Seu e-mail" />
       <input type="password" value={formData.password} onChange={(e) => setFormData({ ...formData, password: e.target.value })} placeholder="Sua senha" />
