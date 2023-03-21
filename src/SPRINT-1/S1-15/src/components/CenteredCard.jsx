@@ -1,9 +1,9 @@
-const Component = ({children}) => {
+const Component = ({ children }) => {
     return (
         <ul>
-        <li>
-            <span>{children}</span>
-        </li>
+            <li>
+                <span>{children}</span>
+            </li>
         </ul>
     )
 }
@@ -11,15 +11,15 @@ const Component = ({children}) => {
 const CenteredCard = () => {
     return (
         <div>
-    <Component>
-        Children 1
-    </Component>
-    <Component>
-        Children 2
-    </Component>
-    <Component>
-        Children 3
-    </Component>
+            <Component>
+                Children 1
+            </Component>
+            <Component>
+                Children 2
+            </Component>
+            <Component>
+                Children 3
+            </Component>
         </div>
     )
 }
