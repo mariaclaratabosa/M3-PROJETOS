@@ -1,0 +1,46 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+input{
+  height: 2rem;
+  width: 30rem;
+  padding-left: 1rem;
+  border-radius: 2px;
+  border: none;
+  outline: none;
+}
+
+button{
+  height: 2rem;
+  width: 20rem;
+  border-radius: 2px;
+  border: 2px solid rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+  color: rgba(255, 255, 255, 0.87);
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: rgba(255, 255, 255, 0.87);
+  color: #242424;
+}

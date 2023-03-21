@@ -22,3 +22,8 @@ Nesse projeto, eu desenvolvi uma lista de cards, utilizando os conceitos de prop
 Nesse projeto, eu desenvolvi uma renderização de uma lista de frutas em React, utilizando o método map, bem como a soma dos valores da lista, utilizando o método reduce, e a filtragem de itens por categoria através do método filter, e foi adicionado um botão de adicionar novos itens à lista
 <br />
 `React` `props` `filter` `map` `reduce` `+`
+
+## S1-22 - "[FORMULÁRIO DE CADASTRO]()"
+Nesse projeto, eu desenvolvi um formulário em Reactde cadastro de usuário, contendo nome, e-mail e senha, e um botão de envio. Possui também uma verificação caso os campos estejam vazios, retornar um alerta
+<br />
+`React` `form` `event` `onChange` `onSubmit` `+`
