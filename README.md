@@ -28,7 +28,7 @@ Nesse projeto, eu desenvolvi um formulário em React de cadastro de usuário, co
 <br />
 `React` `form` `event` `onChange` `onSubmit` `+`
 
-## S1-26 - "[MANIPULANDO EVENTOS - NÚMEROS ALEATÓRIOS]()"
+## S1-26 - "[MANIPULANDO EVENTOS - NÚMEROS ALEATÓRIOS](https://gerando-numeros-aleatorios.vercel.app/)"
 Nesse projeto, eu utilizei o useState do React para instaciar um valor aleatório de 1 a 100, e um botão para criar um novo número, que cada vez que é clicado, retorna outro número aleatório e renderiza na tela
 <br />
 `React` `form` `event` `onClick` `Math.floor` `Math.random` `+`
