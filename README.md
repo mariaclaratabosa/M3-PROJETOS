@@ -49,6 +49,6 @@ Nesse projeto, eu desenvolvi uma lista de afazeres através do uso de callbacks 
 `React` `event` `onClick` `useState` `props` `+`
 
 ## S1-36 - "[NU KENZIE](https://react-entrega-s1-template-nu-kenzie-mariaclaratabosa.vercel.app/)"
-Nesse projeto, eu desenvolvi uma aplicação para gerenciamento de gastos, cadastrando entradas e saídas de dinheiro. Ao adicionar alguma transação, um card é adicionado à lista de resumo financeiro, caso seja uma entrada, possui a borda verde, caso seja uma saída, possui a borda cinza. A soma do total de dinheiro também é atualizada à medida que ocorre as entradas e saídas. Também é possível excluir transações, dessa forma, a soma também é atualizada<br />
+Nesse projeto, eu desenvolvi uma aplicação para gerenciamento de gastos, cadastrando entradas e saídas de dinheiro. Ao adicionar alguma transação, um card é adicionado à lista de resumo financeiro, caso seja uma entrada, possui a borda verde, caso seja uma saída, possui a borda cinza. A soma do total de dinheiro também é atualizada à medida que ocorre as entradas e saídas. Também é possível excluir transações, dessa forma, a soma também é atualizada. A estilização está responsiva utilizando os conceitos de mobile first<br />
 <br />
 `React` `event` `modules` `onClick` `useState` `props` `ternary operator` `onChange` `onSubmit` `filter` `map` `reduce `+`
