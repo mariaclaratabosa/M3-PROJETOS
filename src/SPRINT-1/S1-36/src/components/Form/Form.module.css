@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Nunito:wght@400;500;700&display=swap');
+
+.formContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.formStyle{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    width: 95%;
+    padding: 1rem;
+    gap: 2rem;
+}
+
+.formDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+label{
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--grey-4);
+    font-family: 'Inter', sans-serif;
+}
+
+.exemple{
+    color: var(--grey-3);
+    font-size: 0.75rem;
+}
+
+input, select{
+    background-color: var(--grey-2);
+    border: 1px solid var(--grey-1);
+    padding-left: 1rem;
+    width: 95%;
+    height: 3rem;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+option{
+    color: var(--grey-4);
+    background-color: var(--grey-2);
+    padding: 10px 0;
+}
+
+input::placeholder{
+    color: var(--grey-3);
+}
+
+.formButton{
+    background-color: var(--color-primary);
+    width: 95%;
+    height: 3rem;
+    border: 2px solid var(--color-primary);
+    border-radius: 8px;
+    color: var(--grey-1);
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+@media(min-width: 1000px){
+    .formContainer{
+        padding: 3rem;
+        width: 100%;
+    }
+    .formStyle{
+        width: 25rem;
+    }
+}

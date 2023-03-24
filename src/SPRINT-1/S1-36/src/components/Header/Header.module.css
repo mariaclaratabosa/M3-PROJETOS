@@ -1,0 +1,25 @@
+.header{
+    display: flex;
+    box-shadow: 0px 4px 32px -12px rgba(0, 0, 0, 0.25);
+    padding: 25px 0px;
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+.headerContainer{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.headerContainer > img{
+    padding-left: 1rem;
+}
+
+@media(min-width: 1000px){
+    .header{
+        margin-bottom: 1rem;
+    }
+    .headerContainer>img{
+        padding-left: 160px;
+    }
+}
