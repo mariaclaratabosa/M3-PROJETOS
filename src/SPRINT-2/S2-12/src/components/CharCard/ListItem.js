@@ -5,7 +5,7 @@ export const StyledItem = styled.li`
         flex-direction: column;
         border: 2px solid #00cc99;
         border-radius: 2rem;
-        padding: 1rem 3rem;
+        width: 15rem;
         gap: 1rem;
         align-items: center;
 
