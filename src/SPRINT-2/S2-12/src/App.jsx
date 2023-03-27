@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import './App.css'
 import { api } from './services/api'
-import Characters from './components/Characters/Characters'
+import Characters  from './components/Characters/Characters'
 
 function App() {
   const [charactersList, setCharactersList] = useState([])
@@ -37,9 +37,10 @@ function App() {
 
   return (
     <div className="App">
+      <h1 className="title">Meus personagens</h1>
       <Characters charactersList={charactersList}/>
       <div>
-      <div>
+      <div className="buttonsDiv">
             <button onClick={handlePrevPage}>Anterior</button>
             <button onClick={handleNextPage}>Próxima</button>
         </div>

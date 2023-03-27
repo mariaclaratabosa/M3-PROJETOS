@@ -51,4 +51,9 @@ Nesse projeto, eu desenvolvi uma lista de afazeres através do uso de callbacks 
 ## S1-36 - "[NU KENZIE](https://react-entrega-s1-template-nu-kenzie-mariaclaratabosa.vercel.app/)"
 Nesse projeto, eu desenvolvi uma aplicação para gerenciamento de gastos, cadastrando entradas e saídas de dinheiro. Ao adicionar alguma transação, um card é adicionado à lista de resumo financeiro, caso seja uma entrada, possui a borda verde, caso seja uma saída, possui a borda cinza. A soma do total de dinheiro também é atualizada à medida que ocorre as entradas e saídas. Também é possível excluir transações, dessa forma, a soma também é atualizada. A estilização está responsiva utilizando os conceitos de mobile first<br />
 <br />
-`React` `event` `modules` `onClick` `useState` `props` `ternary operator` `onChange` `onSubmit` `filter` `map` `reduce `+`
+`React` `event` `modules` `onClick` `useState` `props` `ternary operator` `onChange` `onSubmit` `filter` `map` `reduce` `+`
+
+## S2-12 - "[BUSCANDO MAIS PERSONAGENS - API RICK AND MORTY]()"
+Nesse projeto, dando continuidade ao anterior, adicionei dois botões com a funcionaliade de voltar ou passar de página, dessa forma, buscando mais personagens na API e renderizando em tela. A estilização foi feita utilizando a biblioteca Styled-Components e as requisições foram feitas através da biblioteca Axios.<br />
+<br />
+`React` `event` `modules` `onClick` `useState` `useEffect` `API request` `Styled-Components` `Axios` `responsive` `map` `+`
