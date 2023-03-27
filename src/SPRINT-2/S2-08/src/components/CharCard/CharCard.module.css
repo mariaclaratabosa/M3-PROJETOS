@@ -1,0 +1,18 @@
+.listItem{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #00cc99;
+    border-radius: 2rem;
+    width: 15rem;
+    gap: 1rem;
+    align-items: center;
+}
+
+.characterName{
+    color: #00cc99;
+}
+
+.characterImage{
+    width: 10rem;
+    height: auto;
+}
