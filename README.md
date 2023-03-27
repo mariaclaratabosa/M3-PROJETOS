@@ -53,6 +53,11 @@ Nesse projeto, eu desenvolvi uma aplicação para gerenciamento de gastos, cadas
 <br />
 `React` `event` `modules` `onClick` `useState` `props` `ternary operator` `onChange` `onSubmit` `filter` `map` `reduce` `+`
 
+## S2-08 - "[BUSCANDO DADOS - API RICK AND MORTY]()"
+Nesse projeto, desenvolvi uma interface que renderiza personagens da API do Rick and Morty, trazendo seu nome, imagem, status e specie<br />
+<br />
+`React` `event` `modules` `onClick` `useState` `useEffect` `API request` `responsive` `map` `+`
+
 ## S2-12 - "[BUSCANDO MAIS PERSONAGENS - API RICK AND MORTY]()"
 Nesse projeto, dando continuidade ao anterior, adicionei dois botões com a funcionaliade de voltar ou passar de página, dessa forma, buscando mais personagens na API e renderizando em tela. A estilização foi feita utilizando a biblioteca Styled-Components e as requisições foram feitas através da biblioteca Axios.<br />
 <br />
