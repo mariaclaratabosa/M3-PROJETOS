@@ -53,12 +53,17 @@ Nesse projeto, eu desenvolvi uma aplicação para gerenciamento de gastos, cadas
 <br />
 `React` `event` `modules` `onClick` `useState` `props` `ternary operator` `onChange` `onSubmit` `filter` `map` `reduce` `+`
 
-## S2-08 - "[BUSCANDO DADOS - API RICK AND MORTY]()"
+## S2-08 - "[BUSCANDO DADOS - API RICK AND MORTY](https://buscando-dados-rickandmorty.vercel.app/)"
 Nesse projeto, desenvolvi uma interface que renderiza personagens da API do Rick and Morty, trazendo seu nome, imagem, status e specie<br />
 <br />
 `React` `event` `modules` `onClick` `useState` `useEffect` `API request` `responsive` `map` `+`
 
-## S2-12 - "[BUSCANDO MAIS PERSONAGENS - API RICK AND MORTY]()"
+## S2-12 - "[BUSCANDO MAIS PERSONAGENS - API RICK AND MORTY](https://buscando-mais-dados-rickandmorty.vercel.app/)"
 Nesse projeto, dando continuidade ao anterior, adicionei dois botões com a funcionaliade de voltar ou passar de página, dessa forma, buscando mais personagens na API e renderizando em tela. A estilização foi feita utilizando a biblioteca Styled-Components e as requisições foram feitas através da biblioteca Axios.<br />
+<br />
+`React` `event` `modules` `onClick` `useState` `useEffect` `API request` `Styled-Components` `Axios` `responsive` `map` `+`
+
+## S2-14 - "[BURGUER KENZIE](https://react-entrega-template-hamburgueria-da-kenzie-mariaclaratabosa.vercel.app/)"
+Nesse projeto, desenvolvi uma interface de uma hamburgueria, onde os dados eram renderizados através de API, utilizando a biblioteca Axios, é possível adicionar e remover itens do carrinho, e quando um item é adicionado mais de uma vez, é multiplicado no contador, possui um botão para remover todos os itens do carrinho, um input de pesquisa funcional e os dados do carrinho ficam armazenados no localStorage, logo, quando atualizamos ou saímos da página, os dados continuam armazenados, para uma melhor experiência do usuário. Toda a estilização foi feita utilizando a biblioteca Styled-Components e está responsiva para todos os tamanhos de tela.<br />
 <br />
 `React` `event` `modules` `onClick` `useState` `useEffect` `API request` `Styled-Components` `Axios` `responsive` `map` `+`
