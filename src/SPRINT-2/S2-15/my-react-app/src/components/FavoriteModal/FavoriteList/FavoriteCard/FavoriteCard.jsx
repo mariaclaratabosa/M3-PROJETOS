@@ -1,9 +1,13 @@
+import { StyledLabel, StyledTitleThree } from "../../../../styles/typography"
+import { StyledButton } from "../../../../styles/buttons"
+import { StyledFavoriteCard } from "./style"
+
 export const FavoriteCard = ({ favoriteNew, removeNewFromFavoriteList }) => {
     return(
-        <li>
-            <span>{favoriteNew.category}</span>
-            <h3>{favoriteNew.title}</h3>
-            <button onClick={() => removeNewFromFavoriteList(favoriteNew.id)}>Desfavoritar</button>
-        </li>
+        <StyledFavoriteCard>
+            <StyledLabel>{favoriteNew.category}</StyledLabel>
+            <StyledTitleThree>{favoriteNew.title}</StyledTitleThree>
+            <StyledButton onClick={() => removeNewFromFavoriteList(favoriteNew.id)}>Desfavoritar</StyledButton>
+        </StyledFavoriteCard>
     )
 }

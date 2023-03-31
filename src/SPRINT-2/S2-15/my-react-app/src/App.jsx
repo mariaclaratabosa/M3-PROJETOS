@@ -5,6 +5,8 @@ import { NewsFeed } from "./components/NewsFeed/NewsFeed";
 import { FavoriteModal } from "./components/FavoriteModal/FavoriteModal";
 import { NewModal } from "./components/NewModal/NewModal";
 import { api } from "./services/api";
+import { GlobalStyles } from "./styles/GlobalStyles";
+import { StyledContainer } from "./styles/grid";
 
 function App() {
   const [newsList, setNewsList] = useState([]);
@@ -46,9 +48,7 @@ function App() {
 
   const addNewToFavoriteList = (currentNew) => {
     const newFavoritesList = [...favoritesList, currentNew];
-    !favoritesList.some((favoriteNew) => favoriteNew.id === currentNew.id)
-      ? setFavoritesList(newFavoritesList)
-      : console.log("Notícia já favoritada");
+    !favoritesList.some((favoriteNew) => favoriteNew.id === currentNew.id) ? setFavoritesList(newFavoritesList) : console.log("Notícia já favoritada");
   };
 
   const removeNewFromFavoriteList = (currentNewId) => {
@@ -60,12 +60,14 @@ function App() {
 
   return (
     <div className="App">
+      <GlobalStyles />
       <Header
         setIsFavoriteModalVisible={setIsFavoriteModalVisible}
         favoritesList={favoritesList}
         setSearch={setSearch}
       />
-      <CategoryList categoriesList={categoriesList} setFilter={setFilter} />
+      <CategoryList categoriesList={categoriesList} filter={filter} setFilter={setFilter} />
+      <StyledContainer>
       <NewsFeed
         newsList={newsList}
         addNewToFavoriteList={addNewToFavoriteList}
@@ -75,7 +77,8 @@ function App() {
         setSearch={setSearch}
         filter={filter}
       />
-      {isFavoriteModalVisible ? <FavoriteModal favoritesList={favoritesList} removeNewFromFavoriteList={removeNewFromFavoriteList} /> : null}
+      </StyledContainer>
+      {isFavoriteModalVisible ? <FavoriteModal favoritesList={favoritesList} removeNewFromFavoriteList={removeNewFromFavoriteList} setIsFavoriteModalVisible={setIsFavoriteModalVisible} /> : null}
       {currentSelectedNew ? (
         <NewModal
           currentSelectedNew={currentSelectedNew}

@@ -1,11 +1,16 @@
 import { FavoriteList } from "./FavoriteList/FavoriteList"
+import { StyledTitleTwo } from "../../styles/typography"
+import { StyledFavoriteModal } from "./style"
+import { MdClose } from "react-icons/md"
 
-export const FavoriteModal = ({ favoritesList, removeNewFromFavoriteList }) => {
+export const FavoriteModal = ({ favoritesList, removeNewFromFavoriteList, setIsFavoriteModalVisible }) => {
     return(
-        <div role="dialog">
-            <button>Fechar</button>
-            <h2>Favoritos</h2>
+        <StyledFavoriteModal role="dialog">
+            <div className="modalGrid">
+            <button className="closeButton" onClick={() => setIsFavoriteModalVisible(false)}><MdClose size={28} /></button>
+            <StyledTitleTwo fontSize="two">Favoritos</StyledTitleTwo>
             <FavoriteList favoritesList={favoritesList} removeNewFromFavoriteList={removeNewFromFavoriteList} />
-        </div>
+            </div>
+        </StyledFavoriteModal>
     )
 }

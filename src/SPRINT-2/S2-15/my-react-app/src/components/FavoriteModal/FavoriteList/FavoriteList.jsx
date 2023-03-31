@@ -1,11 +1,12 @@
 import { FavoriteCard } from "./FavoriteCard/FavoriteCard";
+import { StyledFavoriteList } from "./style";
 
 export const FavoriteList = ({ favoritesList, removeNewFromFavoriteList }) => {
   return (
-    <ul>
+    <StyledFavoriteList>
       {favoritesList.map((favoriteNew) => (
         <FavoriteCard key={favoriteNew.id} favoriteNew={favoriteNew} removeNewFromFavoriteList={removeNewFromFavoriteList} />
       ))}
-    </ul>
+    </StyledFavoriteList>
   );
 };

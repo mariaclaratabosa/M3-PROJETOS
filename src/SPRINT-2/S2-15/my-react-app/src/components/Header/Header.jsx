@@ -1,10 +1,17 @@
 import { HeaderControls } from "./HeaderControls/HeaderControls"
+import { StyledContainer } from "../../styles/grid"
+import { StyledHeader } from "./style"
+import Logo from "../../assets/Logo.svg"
 
 export const Header = ({ setIsFavoriteModalVisible, favoritesList, setSearch }) => {
-    return(
-        <header>
-            <img src="" alt="Logo" />
-            <HeaderControls setIsFavoriteModalVisible={setIsFavoriteModalVisible} favoritesList={favoritesList} setSearch={setSearch} />
-        </header>
+    return (
+            <StyledHeader>
+                <StyledContainer>
+                    <div className="flexBox">
+                        <img src={Logo} alt="Logo" />
+                        <HeaderControls setIsFavoriteModalVisible={setIsFavoriteModalVisible} favoritesList={favoritesList} setSearch={setSearch} />
+                    </div>
+                </StyledContainer>
+            </StyledHeader>
     )
 }
