@@ -56,7 +56,7 @@ function App() {
 
   const handleSearch = () => {
     const filteredProducts = products.filter((product) =>
-      product.name.toLowerCase().includes(searchValue.toLowerCase())
+      product.name.toLowerCase().includes(searchValue.toLowerCase()) || product.category.toLowerCase().includes(searchValue.toLowerCase())
     )
     setFilteredProducts(filteredProducts)
     setSearchedProduct(searchValue)
