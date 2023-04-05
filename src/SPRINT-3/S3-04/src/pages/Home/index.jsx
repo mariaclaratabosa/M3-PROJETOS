@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom'
-
+import './index.css'
 const Home = ({ members }) => {
     return(
-        <div>
+        <div className='homeContainer'>
             {members.map((member) => (
                 <div key={member.id}>
                     <Link to={member.type ==='pj' ? `/company/${member.id}` : `/costumer/${member.id}`}>

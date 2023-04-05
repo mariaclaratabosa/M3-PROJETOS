@@ -1,0 +1,7 @@
+.homeContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 3rem;
+    height: fit-content;
+}

@@ -67,3 +67,18 @@ Nesse projeto, dando continuidade ao anterior, adicionei dois botões com a func
 Nesse projeto, desenvolvi uma interface de uma hamburgueria, onde os dados eram renderizados através de API, utilizando a biblioteca Axios, é possível adicionar e remover itens do carrinho, e quando um item é adicionado mais de uma vez, é multiplicado no contador, possui um botão para remover todos os itens do carrinho, um input de pesquisa funcional e os dados do carrinho ficam armazenados no localStorage, logo, quando atualizamos ou saímos da página, os dados continuam armazenados, para uma melhor experiência do usuário. Toda a estilização foi feita utilizando a biblioteca Styled-Components e está responsiva para todos os tamanhos de tela.<br />
 <br />
 `React` `event` `modules` `onClick` `useState` `useEffect` `API request` `Styled-Components` `Axios` `responsive` `map` `+`
+
+## S3-04 "[ROTAS - ACESSO DE USUÁRIO]()"
+Nesse projeto, desenvolvi uma interface simples para a prática de rotas, contendo um database. Na página inicial foram renderizados alguns botões contendo nomes de usuários e empresas, ao clicar em algum deles, era feita a verificação se se travava de um usuário ou empresa, e assim era feito o redirecionamento para a dashboard corerspondente, através das rotas, utilizando a biblioteca React Router DOM. <br />
+<br />
+`React` `event` `routes`  `React Router DOM` `+`
+
+## S3-08 "[PRATICANDO FORMS]()"
+Nesse projeto, desenvolvi um formulário de cadastro, com os campos de nome, e-mail e senha, utilizando a biblioteca React Hook Form, e uma validação utilizando a biblioteca Zod, para garantir que todos os campos fossem preenchidos antes de enviar o formulário, caso algum não fosse preenchido, era retornada uma mensagem de erro. Quando o formulário era devidamente preenchido e enviado, o usuário era redirecionado para outra página contendo seus dados. <br />
+<br />
+`React` `event` `Zod` `Reack Hook Form` `+`
+
+## S3-11 "[KENZIE HUB]()"
+Nesse projeto, desenvolvi um sistema de login e cadastro. Os formulários foram feitos utilizando a biblioteca React Hook Form, e as validações foram feitas utilizando a biblioteca Zod. Dessa forma, foi possível garantir que todos os campos fossem preenchidos e atendessem aos requisitos antes de enviar a requisição de cadastro, também foi validada a confirmação de senha utilizando o método refine, para garantir que o usuário cadastrasse a senha correta. Da mesma forma, foi feita uma validação do formulário de login, para garantir que os campos de e-mail e senha fossem devidamente preenchidos antes de enviar a requisição. O resultado da requisição, de erro ou sucesso, foi exibido para o usuário através de um toast, utilizando a biblioteca Toastify. As requisições foram feitas utilizando a biblioteca Axios e a estilização, que está responsiva para todos os tamanhos de tela, foi feita utilizando a biblioteca Styled Components. A troca de rota entre as páginas foi feita utilizando a biblioteca React Router Dom. <br />
+<br />
+`React` `event` `routes` `toastify` `styled-components` `API request` `Axios` `Zod` `Reack Hook Form` `React Router DOM` `responsive` `mobile first` `toastify` `+`

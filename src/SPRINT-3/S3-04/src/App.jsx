@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import './App.css'
 import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
@@ -7,7 +6,6 @@ import Company from './pages/Company';
 import { members } from './data/members'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div className="App">
