@@ -88,7 +88,7 @@ Nesse projeto, desenvolvi um contador simples utilizando os conceitos de Context
 <br />
 `React` `Context API` `+`
 
-## S4-06 "[CRIANDO UM TEMA DARK/LIGHT]()"
+## S4-06 "[CRIANDO UM TEMA DARK/LIGHT](https://tema-light-dark.vercel.app/)"
 Nesse projeto, desenvolvi uma interface simples de troca de tema dark/light utilizando os conceitos de Context API com styled-components. <br />
 <br />
 `React` `Context API` `styled-components` `+`
