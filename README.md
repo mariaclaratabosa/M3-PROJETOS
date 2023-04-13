@@ -86,4 +86,9 @@ Nesse projeto, desenvolvi um sistema de login e cadastro. Os formulários foram 
 ## S4-04 "[CRIANDO UM CONTADOR COM CONTEXT API](https://criando-contador.vercel.app/)"
 Nesse projeto, desenvolvi um contador simples utilizando os conceitos de Context API. <br />
 <br />
-`React` `Context` `+`
+`React` `Context API` `+`
+
+## S4-06 "[CRIANDO UM TEMA DARK/LIGHT]()"
+Nesse projeto, desenvolvi uma interface simples de troca de tema dark/light utilizando os conceitos de Context API com styled-components. <br />
+<br />
+`React` `Context API` `styled-components` `+`
