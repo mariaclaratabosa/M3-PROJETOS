@@ -68,12 +68,12 @@ Nesse projeto, desenvolvi uma interface de uma hamburgueria, onde os dados eram 
 <br />
 `React` `event` `modules` `onClick` `useState` `useEffect` `API request` `Styled-Components` `Axios` `responsive` `map` `+`
 
-## S3-04 "[ROTAS - ACESSO DE USUÁRIO]()"
+## S3-04 "[ROTAS - ACESSO DE USUÁRIO](https://rotas-acesso-usuario-navy.vercel.app/)"
 Nesse projeto, desenvolvi uma interface simples para a prática de rotas, contendo um database. Na página inicial foram renderizados alguns botões contendo nomes de usuários e empresas, ao clicar em algum deles, era feita a verificação se se travava de um usuário ou empresa, e assim era feito o redirecionamento para a dashboard corerspondente, através das rotas, utilizando a biblioteca React Router DOM. <br />
 <br />
 `React` `event` `routes`  `React Router DOM` `+`
 
-## S3-08 "[PRATICANDO FORMS]()"
+## S3-08 "[PRATICANDO FORMS](https://praticando-forms-xi-two.vercel.app/)"
 Nesse projeto, desenvolvi um formulário de cadastro, com os campos de nome, e-mail e senha, utilizando a biblioteca React Hook Form, e uma validação utilizando a biblioteca Zod, para garantir que todos os campos fossem preenchidos antes de enviar o formulário, caso algum não fosse preenchido, era retornada uma mensagem de erro. Quando o formulário era devidamente preenchido e enviado, o usuário era redirecionado para outra página contendo seus dados. <br />
 <br />
 `React` `event` `Zod` `Reack Hook Form` `+`
