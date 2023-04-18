@@ -102,3 +102,8 @@ Nesse projeto, dando continuidade à primeira parte do Kenzie Hub (S3-11), refat
 Nesse projeto, desenvolvi uma interface básica de uma lista de frutas utilizando TypeScript, renderizada através de uma requisição utilizando Axios, tipando devidamente a requisição, as passagens de props e states. <br />
 <br />
 `React` `TypeScript` `type` `API request` `Axios` 
+
+## S5-15 "[TYPESCRIPT - TODO LIST]()"
+Nesse projeto, desenvolvi uma interface básica contendo um formulário para adição de tarefas em uma ToDo List, onde a lista é renderizada em tela, contendo também a opção de deletar tarefa. Foi um exercício para a prática de tipagem em TypeScript e utlização das bibliotecas React Hook Form e Zod e o uso de Context API em TypeScript. <br />
+<br />
+`React` `TypeScript` `type` `React Hook Form` `zod` `Context API` 
