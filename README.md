@@ -97,3 +97,8 @@ Nesse projeto, desenvolvi uma interface simples de troca de tema dark/light util
 Nesse projeto, dando continuidade à primeira parte do Kenzie Hub (S3-11), refatorei código antes feito, utilizando os conceitos de Context API, além disso, na dashboard adicionei a funcionalidade de adicionar uma nova tecnologia para a lista, editar e deletar tecnologias, através de modais. Os formulários foram feitos utilizando a biblioteca React Hook Form, os toasts de erro e sucesso foram feitos utilizando a biblioteca React Toastify. Foi feita também uma funcionalidade de AutoLogin e proteção de rotas utilizando o React Router DOM, dessa forma, quando não há usuário logado, não é possível acessar a dashboard e o mesmo é redirecionado para o login. <br />
 <br />
 `React` `event` `routes` `toastify` `styled-components` `API request` `Axios` `Zod` `Reack Hook Form` `React Router DOM` `responsive` `mobile first` `toastify` `Context API` `protected routes` `+`
+
+## S5-13 "[TYPESCRIPT - LISTA DE FRUTAS]()"
+Nesse projeto, desenvolvi uma interface básica de uma lista de frutas utilizando TypeScript, renderizada através de uma requisição utilizando Axios, tipando devidamente a requisição, as passagens de props e states. <br />
+<br />
+`React` `TypeScript` `type` `API request` `Axios` 
