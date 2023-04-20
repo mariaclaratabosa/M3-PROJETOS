@@ -107,3 +107,9 @@ Nesse projeto, desenvolvi uma interface básica de uma lista de frutas utilizand
 Nesse projeto, desenvolvi uma interface básica contendo um formulário para adição de tarefas em uma ToDo List, onde a lista é renderizada em tela, contendo também a opção de deletar tarefa. Foi um exercício para a prática de tipagem em TypeScript e utlização das bibliotecas React Hook Form e Zod e o uso de Context API em TypeScript. <br />
 <br />
 `React` `TypeScript` `type` `React Hook Form` `zod` `Context API` 
+
+## S5-18 "[KENZIE BURGER](https://kenzie-burguer-v2-template-mariaclaratabosa.vercel.app/)"
+Nesse projeto, desenvolvi novamente o projeto Kenzie Burger, mas utilizando TypeScript, bem como adicionando funcionalidades de login e cadastro, , através de requisição de API ao efetuar o login,o usuário é redirecionado para a shop page, onde os produtos também são renderizados através de requisição de API, pode adicionar itens ao carrinho, remover e remover todos, possui uma barra de presquisa funcional e um botão de logout redirecionado para o login e limpano o localStorage. Foram utilizadas as bibliotecas: react hook form, zod, react toastify, axios e styled-components. <br />
+<br />
+`React` `TypeScript` `event` `routes` `toastify` `styled-components` `API request` `Axios` `Zod` `Reack Hook Form` `Styled-Components` `React Router DOM` `responsive` `mobile first` `toastify` `+`
+
