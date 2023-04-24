@@ -113,3 +113,8 @@ Nesse projeto, desenvolvi novamente o projeto Kenzie Burger, mas utilizando Type
 <br />
 `React` `TypeScript` `event` `routes` `toastify` `styled-components` `API request` `Axios` `Zod` `Reack Hook Form` `Styled-Components` `React Router DOM` `responsive` `mobile first` `toastify` `+`
 
+## S6-04 "[FAKE API]"
+Nesse projeto, desenvolvi um modelo simples de fake API para praticar os conceitos aprendidos sobre banco de dados. <br />
+<br />
+`routes` `server` `database`
+
