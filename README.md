@@ -118,3 +118,8 @@ Nesse projeto, desenvolvi um modelo simples de fake API para praticar os conceit
 <br />
 `routes` `server` `database`
 
+## PROJETO FRONTEND "[HELPETS](https://helpets.vercel.app/login)"
+Esse projeto consiste em uma aplicação com sistema de login e cadastro para usuários e já possui um usuário admnistrador cadastrado. Na dashboard, são renderizados vários cards de ONGs da causa animal e um input de pesquisa onde é possível filtrar a ONG. Os usuários comuns podem fazer doações para as ONGs através de um modal e também podem clicar em um botão "Saiba mais" para ir para outra página onde são renderizados o nome, imagem e localização da ONG utilizando a API do Google Maps. Além disso, nessa página há um botão que leva ao site da ONG. Na página de usuário administrador, é possível adicionar, editar e deletar ONGs. Os cards são renderizados utilizando a lib Swiper para criar um carrossel. Toda estilização foi feita utilizando TailwindCSS e está responsiva para todos os tamanhos de tela. <br />
+<br />
+`React` `TypeScript` `event` `routes` `toastify` `styled-components` `API request` `Axios` `Zod` `Reack Hook Form` `TailwindCSS` `Swiper` `Google Maps API` `React Router DOM` `responsive` `mobile first` `toastify` `+`
+
