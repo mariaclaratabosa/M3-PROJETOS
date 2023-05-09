@@ -1,0 +1,7 @@
+@use "./abstracts" as *;
+
+body, input, button, textarea{
+    font-size: 1.6rem;
+    color: $color-blue-100;
+
+}
