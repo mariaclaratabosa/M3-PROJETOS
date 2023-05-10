@@ -1,14 +1,18 @@
 @use "../../scss/abstracts/" as *;
 
 .container{
+    &[data-color='first'] {
+        background-color: $color-green-300;
+    }
+    &[data-color='second'] {
+        background-color: $color-green-100;
+    }
     width: 30rem;
     height: fit-content;
     border-radius: 0.8rem;
-    background-color: $color-green-300;
+    padding: 1.4rem;
     color: $color-gray-500;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+    text-align: center;
     @include effect-style-shadow-1;
     padding: 1.4rem;
     h3{
