@@ -1,0 +1,9 @@
+@use "../scss/abstracts/" as *;
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 30rem);
+    grid-gap: 0.8rem;
+    grid-auto-rows: auto;
+    justify-content: center;
+    list-style: none;
+}
