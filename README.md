@@ -123,3 +123,8 @@ Esse projeto consiste em uma aplicação com sistema de login e cadastro para us
 <br />
 `React` `TypeScript` `event` `routes` `toastify` `styled-components` `API request` `Axios` `Zod` `Reack Hook Form` `TailwindCSS` `Swiper` `Google Maps API` `React Router DOM` `responsive` `mobile first` `toastify` `+`
 
+## SPRINT-8 "[PROJETO COM NEXT JS](https://next-js-demo-qu3hhjv09-mariaclara-tabosa.vercel.app/posts)"
+Esse projeto consiste em uma simples interface criada utilizando Next JS e SCSS para estilização. <br/>
+<br/>
+`Next JS` `TypeScript` `SCSS`
+
