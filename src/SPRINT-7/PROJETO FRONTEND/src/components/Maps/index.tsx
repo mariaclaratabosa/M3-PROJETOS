@@ -38,7 +38,7 @@ type Props = {
     return (
       <div className="map border-4 border-[#3AB8C7] rounded-lg h-96 mb-16 flex justify-center items-center ">
         <LoadScript
-          googleMapsApiKey={"AIzaSyArOse9phGmQ0Clubc59tm-QTv3GJrX7UY"}
+          googleMapsApiKey={"API_KEY_API"}
           libraries={["places"]} loadingElement={<BeatLoader color="#3AB8C7" />}
         >
           <GoogleMap
